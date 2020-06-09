@@ -1,3 +1,3 @@
-for k,v in pairs(_env) do
+for k,v in pairs(_ENV) do
   print(tostring(k) .. ': ' .. tostring(v))
 end
